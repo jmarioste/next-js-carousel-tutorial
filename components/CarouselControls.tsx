@@ -1,9 +1,9 @@
 import classNames from "classnames";
 
 type Props = {
-  onPrev(): void;
   canScrollPrev: boolean;
   canScrollNext: boolean;
+  onPrev(): void;
   onNext(): void;
 };
 const CarouselControls = (props: Props) => {
