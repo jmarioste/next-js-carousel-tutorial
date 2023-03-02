@@ -3,16 +3,16 @@ import Carousel from "../components/Carousel";
 import Image from "next/image";
 const Home: NextPage = () => {
   const images = [
-    "https://picsum.photos/id/237/480/300",
-    "https://picsum.photos/id/238/480/300",
-    "https://picsum.photos/id/239/480/300",
+    "https://placehold.co/480x300?font=roboto&text=Slide+1",
+    "https://placehold.co/480x300?font=roboto&text=Slide+2",
+    "https://placehold.co/480x300?font=roboto&text=Slide+3",
   ];
   return (
     <div>
       <div className="container mx-auto">
         <h1 className="text-4xl text-center">Next Carousel Tutorial</h1>
       </div>
-      <div className="w-1/2 mx-auto my-2">
+      <div className="lg:w-3/4 mx-auto my-2">
         <Carousel options={{ loop: true }}>
           {images.map((src, i) => {
             return (

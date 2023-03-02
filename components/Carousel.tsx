@@ -33,7 +33,7 @@ const Carousel = ({ children, options }: DivProps) => {
 
   return (
     <>
-      <div className="overflow-hidden rounded-lg" ref={emblaRef}>
+      <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">{children}</div>
       </div>
       <Dots
